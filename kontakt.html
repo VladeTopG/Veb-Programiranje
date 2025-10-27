@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="kontakt.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Servis Računara</h1>
+            <div class="login">Đukić COMMERCE</div>
+        </header>
+    
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Naslovna</a></li>
+                <li><a href="onama.html">O nama</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <section class="welcome">
+
+                <section class="contact container" id="contact">
+                    <h2>Kontaktirajte nas</h2>
+                    <form  method="POST">
+                            <label for="name">Vase ime</label>
+                            <input id = "ime" type="text" name="name"  required>
+                            <label for="mail">Vas e-mail</label>
+                            <input id = "mejl" type="email" name="mail"  required>
+                            <label for="grad">Izaberite grad:</label><br>
+                            <input list="gradovi" id="grad" name="grad"><br><br>
+                            <datalist id="gradovi">
+                                <option value="Požega">
+                                <option value="Beograd">
+                                <option value="Novi Sad">
+                                <option value="Niš">
+                                <option value="Kragujevac">
+                              </datalist>
+                            <label for="message">Posaljite poruku</label>
+                            <textarea name="idMessage" id="message" rows="5"></textarea>
+                            <button>Posalji</button>
+                    </form>
+                 </section>
+                
+              
+                  
+                    <div class="icon">
+                      <a href="#"><img src="fb.png" alt="icon" /></a>
+                      <a href="#"><img src="ig.png" alt="icon" /></a>
+                    </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>

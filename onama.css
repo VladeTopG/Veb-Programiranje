@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: darkgreen;
+    background-image: url('matrix1.jpg'); 
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    font-family: Arial, sans-serif;
+
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: #006868;
+    border: 2px solid black;
+    padding-bottom: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #006868;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-bottom: 3px solid black;
+  }
+  
+  .header h1 {
+    color: black;
+    margin: 0;
+  }
+  
+  .header h1 span {
+    color: black;
+  }
+  
+  .login {
+    color: black;
+  }
+
+  .menu {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #006868;
+    color: black;
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  .content {
+  padding: 20px;
+  background-color: #008b8b;
+  color: #000;
+}
+.table {
+    border-collapse: collapse;      
+    width: 100%;                     
+    font-family: Arial, sans-serif;  
+    font-size: 16px;                 
+  }
+  
+  .table th, .table td {
+    border: 1px solid #000;          
+    padding: 8px;                     
+    text-align: left;                 
+  }
+  
+  .table th {
+    background-color: #006868;
+    color: black;       
+  }
